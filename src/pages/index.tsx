@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
-import { useQuery } from '@tanstack/react-query';
 import axios from '~services/index';
+import { useQuery } from '@tanstack/react-query';
 
 export default function Home() {
   useQuery(
