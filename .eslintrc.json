@@ -1,4 +1,7 @@
 {
+  "globals": {
+    "JSX": true
+  },
   "env": {
     "browser": true,
     "es2021": true,
@@ -9,5 +12,8 @@
     "next",
     "next/core-web-vitals",
     "plugin:prettier/recommended"
-  ]
+  ],
+  "rules": {
+    "no-unused-vars": "off"
+  }
 }
