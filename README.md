@@ -48,7 +48,7 @@
       }
     }
     ```
-1.  Prettier관련 .prettier.json 생성
+1.  Prettier관련 .prettierrc.json 생성
     ```json
     {
       "semi": true,
